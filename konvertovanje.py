@@ -4,6 +4,6 @@ def slovo_u_int(kolonaString):
 
 def int_u_slovo(broj):
   return chr(ord('A') + broj)
-
+  
 def int_u_vrstu(broj, brojVrsta):
   return brojVrsta - broj

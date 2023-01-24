@@ -10,7 +10,7 @@ class StanjePolja(Enum):
 
   def __str__(self) -> str:
     return str(super().value)
-
+    
 class TipIgraca(Enum):
   X = 'X'
   O = 'O'
